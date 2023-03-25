@@ -109,6 +109,9 @@
     width: 100%;
   }
 }
+.parent-second-first-container {
+  display: flex;
+}
 
 @media screen and (max-width: 1025px) {
   .details {
@@ -117,9 +120,11 @@
 }
 @media screen and (max-width: 769px) {
   .weather {
-    flex-direction: column;
-    padding-top: 0;
     margin-top: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 0 10px 10px 10px;
   }
   .first-container,
   .last-container {
