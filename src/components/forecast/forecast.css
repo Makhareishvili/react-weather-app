@@ -8,8 +8,7 @@
 }
 
 .daily-item {
-  box-shadow: 10px -2px 20px 2px rgb(0 0 0 / 30%);
-  border-radius: 15px;
+  /* border-radius: 10px; */
   height: 40px;
   margin: 5px;
   display: flex;
@@ -17,6 +16,16 @@
   cursor: pointer;
   font-size: 14px;
   padding: 5px 20px;
+  /*  */
+  background: rgb(69, 128, 189);
+  background: radial-gradient(
+    circle,
+    rgba(69, 128, 189, 0.5214460784313726) 0%,
+    rgba(121, 176, 190, 1) 100%
+  );
+
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
 }
 
 .icon-small {
@@ -24,31 +33,43 @@
 }
 
 .day {
-  color: #212121;
+  color: #fff;
   flex: 1 1;
+  font-size: 16px;
   font-weight: 600;
   margin-left: 15px;
 }
 
 .description {
+  font-size: 15px;
   flex: 1 1;
   margin-right: 15px;
   text-align: right;
 }
 
 .min-max {
+  font-size: 15px;
   color: #757575;
 }
 
 .daily-details-grid {
+  margin: 0 5px;
   grid-row-gap: 0;
   grid-column-gap: 15px;
   row-gap: 0;
   column-gap: 15px;
   display: grid;
   flex: 1 1;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
   grid-template-columns: auto auto;
   padding: 5px 15px;
+  background: rgb(69, 128, 189);
+  background: radial-gradient(
+    circle,
+    rgba(69, 128, 189, 0.5214460784313726) 0%,
+    rgba(97, 143, 156, 1) 100%
+  );
 }
 
 .daily-details-grid-item {
@@ -59,8 +80,11 @@
 }
 
 .daily-details-grid-item label:first-child {
-  color: #757575;
+  color: #23242f;
+  min-width: 100px;
 }
 .daily-details-grid-item label:last-child {
-  color: #212121;
+  color: #d5ebdb;
+  min-width: 100px;
+  margin-left: 10px;
 }
