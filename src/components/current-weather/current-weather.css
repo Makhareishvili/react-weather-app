@@ -119,6 +119,7 @@
   .weather {
     flex-direction: column;
     padding-top: 0;
+    margin-top: 5px;
   }
   .first-container,
   .last-container {
@@ -151,27 +152,5 @@
   .parameter-label,
   .parameter-value {
     font-size: 14px;
-  }
-  .animation-div {
-    height: 1px;
-  }
-  label.title {
-    font-size: 20px;
-  }
-  img.icon-small {
-    width: 30px;
-  }
-  label.day {
-    font-size: 16px;
-  }
-  label.description {
-    flex: 2;
-    font-size: 15px;
-  }
-  div.daily-item {
-    padding: 0 8px 0 5px;
-  }
-  label.min-max {
-    font-size: 13px;
   }
 }
