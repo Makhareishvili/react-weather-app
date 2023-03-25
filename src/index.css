@@ -3,7 +3,8 @@ body {
   margin: 0;
   font-family: "Comfortaa", cursive !important;
 
+  min-height: 100vh;
   background-image: url(../public/1540005.jpg);
   background-repeat: no-repeat;
-  background-size: 100% 100vh;
+  background-size: 100% 100%;
 }
