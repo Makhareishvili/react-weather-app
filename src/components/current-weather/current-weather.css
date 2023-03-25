@@ -109,3 +109,69 @@
     width: 100%;
   }
 }
+
+@media screen and (max-width: 1025px) {
+  .details {
+    width: 80%;
+  }
+}
+@media screen and (max-width: 769px) {
+  .weather {
+    flex-direction: column;
+    padding-top: 0;
+  }
+  .first-container,
+  .last-container {
+    display: flex;
+    justify-content: center;
+  }
+  .temperature {
+    font-size: 28px;
+  }
+  .city {
+    margin: 0;
+    font-size: 18px;
+  }
+  .weather-description {
+    font-size: 16px;
+    padding-top: 2px;
+  }
+  .weather-icon-container {
+    margin-top: 0;
+  }
+  .weather-icon {
+    width: 80px;
+  }
+  .details {
+    padding: 0 15px;
+  }
+  .parameter-label.header {
+    font-size: 16px;
+  }
+  .parameter-label,
+  .parameter-value {
+    font-size: 14px;
+  }
+  .animation-div {
+    height: 1px;
+  }
+  label.title {
+    font-size: 20px;
+  }
+  img.icon-small {
+    width: 30px;
+  }
+  label.day {
+    font-size: 16px;
+  }
+  label.description {
+    flex: 2;
+    font-size: 15px;
+  }
+  div.daily-item {
+    padding: 0 8px 0 5px;
+  }
+  label.min-max {
+    font-size: 13px;
+  }
+}
