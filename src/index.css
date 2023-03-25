@@ -1,5 +1,9 @@
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap");
 body {
   margin: 0;
-  font-family: "Roboto", Arial !important;
-  background-color: #d5d4d4;
+  font-family: "Comfortaa", cursive !important;
+
+  background-image: url(../public/1540005.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100vh;
 }
